@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Adaptive Firewall",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["--iface", "Wi-Fi", "--duration", "60"],
+            "console": "integratedTerminal",
+            "subProcess": true
+        }
+    ]
+}
